@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(177, 233, 255);
+  display: flex;
+  justify-content: center; /* 主軸方向（横方向）の中央寄せ */
+  align-items: center; /* 交差軸方向（縦方向）の中央寄せ */
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  background-color: rgb(254, 224, 224);
+}
+
+main p {
+  margin: 0;
+}
+
+footer {
+  background-color: rgb(0, 183, 255);
+  display: flex;
+  justify-content: center; /* 主軸方向（横方向）の中央寄せ */
+  align-items: center; /* 交差軸方向（縦方向）の中央寄せ */
+}
+
+footer p {
+  margin: 0;
+}
